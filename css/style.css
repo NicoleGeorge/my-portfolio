@@ -60,13 +60,13 @@ nav .navbar-nav.active {
 }
 
 .navbar-nav .nav-link {
-  padding-right: 20px;
+  padding-right: 0;
   padding-left: 0;
 }
 
 a {
   color: #f5979c;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 800;
   text-transform: uppercase;
   text-decoration: none;
@@ -78,7 +78,7 @@ a {
 }
 
 nav a:hover {
-  color:  rgb(244, 193, 116);
+  color: #FF4901;
 }
 
 .navbar-brand span {
@@ -107,8 +107,8 @@ nav a:hover {
 }
 
 .icon-pic {
-  height: 120px;
-  margin-top: 60px;
+  height: 100px;
+  margin-top: 40px;
   margin-bottom: 0; 
   margin-left: 40px;
   margin-right: 40px;
@@ -197,8 +197,8 @@ nav a:hover {
 }
 
 .portfolio-list-item {
-  width: 400px;
-  margin-top: 20px;
+  width: 450px;
+  margin-top: 15px;
 }
 
 /* BLOG ARCHIVE STYLES */
@@ -216,6 +216,8 @@ nav a:hover {
   color: #ffd2d4 !important;
   border-radius: 0;
   border-color: #FF4901;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .project-button:hover {
@@ -223,6 +225,8 @@ nav a:hover {
   color: #FF4901 !important;
   border-radius: 0;
   border-color: #ffd2d4 !important;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 /* CONTACT */
