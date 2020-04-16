@@ -196,6 +196,11 @@ nav a:hover {
   border-bottom: 1px solid rgba(143, 164, 36, 0.671); 
 }
 
+.portfolio-list-item {
+  width: 400px;
+  margin-top: 20px;
+}
+
 /* BLOG ARCHIVE STYLES */
 .blog-header {
   background-image: url(../img/styling-1.jpg);
@@ -206,6 +211,19 @@ nav a:hover {
   margin-bottom: 45px;
 }
 
+.project-button {
+  background-color: #FF4901!important; 
+  color: #ffd2d4 !important;
+  border-radius: 0;
+  border-color: #FF4901;
+}
+
+.project-button:hover {
+  background-color: #ffd2d4!important; 
+  color: #FF4901 !important;
+  border-radius: 0;
+  border-color: #ffd2d4 !important;
+}
 
 /* CONTACT */
 
