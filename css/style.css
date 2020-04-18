@@ -9,8 +9,14 @@ body {
 }
 
 .row {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.intro-section {
   margin-top: 55px;
 }
+
 .card {
   background-color: #ffebec;
   border: none;
