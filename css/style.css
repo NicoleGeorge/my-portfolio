@@ -14,7 +14,7 @@ body {
 }
 
 .intro-section {
-  margin-top: 55px;
+  margin-top: 40px;
 }
 
 .card {
@@ -168,6 +168,12 @@ nav a:hover {
   font-weight: 600;
   margin-bottom: 20px;
 
+}
+
+.about-me-illustration {
+  width: 450px;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
 /* PORTFOLIO */
 
