@@ -5,9 +5,13 @@ body {
 }
 
 .container {
+  margin-top: 10px;
   background-color: #ffebec;
 }
 
+.row {
+  margin-top: 55px;
+}
 .card {
   background-color: #ffebec;
   border: none;
@@ -155,6 +159,11 @@ nav a:hover {
   padding: 10px 10px;
 }
 
+.fun-facts-heading {
+  font-weight: 600;
+  margin-bottom: 20px;
+
+}
 /* PORTFOLIO */
 
 .projects-gif {
