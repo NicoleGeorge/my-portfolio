@@ -220,9 +220,13 @@ color: #f5979cb0;
   margin: 30px 0;
 }
 
+.project-outline {
+  width: 100%;
+}
+
 /* BLOG ARCHIVE STYLES */
 .blog-header {
-  background-image: url(../img/styling-1.jpg);
+  /* background-image: url(../img/styling-1.jpg); */
   background-repeat: no-repeat;
 }
 

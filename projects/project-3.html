@@ -44,7 +44,10 @@
       href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="../css/style.css" type="text/css" />
-    <script src="https://kit.fontawesome.com/441eb1557c.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/441eb1557c.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -88,38 +91,36 @@
     </header>
 
     <main class="container">
-
       <!-- START INTRO SECTION -->
       <div class="about-me">
-        <h2 class="page-title">travel blogger: <br/>weather dashboard</h2>
+        <h2 class="page-title">travel blogger: <br />weather dashboard</h2>
         <div class="row">
           <!--left side -->
           <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
             <img
               class="profile-pic"
-              src="../img/Profile-Pic.png"
+              src="../icons/rocket.png"
               alt="profile picture"
             />
 
             <!-- right side -->
-            <p class="intro-para">
-              Hi, I’m Nicole, a former fashion designer turned creative coder
-              from Adelaide, Australia. My jams are web design & copywriting,
-              but I also cast spells with UI/UX design, illustration, brand
-              strategy & content marketing.
+            <p class="mid-para">
+              A travel blogger wants to see the weather outlook for multiple
+              cities to plan their next trip. They also want to know the 5-day
+              forecast of the cities they are looking to visit.
             </p>
-            
+
             <p class="sub-para">
-              When I’m not coding, you can often find me reading comic books or
-              political thrillers, listening to Marina & The Diamonds while
-              scrolling Instagram, drinking coffee out of pop culture mugs or
-              watching the X-Files.
+              The objective was to build a weather dashboard, using the Open
+              Weather API to pull weather data from searched cites. The output
+              runs in the browser, and features dynamically updated HTML and
+              CSS, powered by JQuery.
             </p>
             <div class="text-center">
               <a
                 href="https://github.com/NicoleGeorge/suicide-squad-GoT-app"
                 target="_blank"
-                class="btn btn-primary text-center"
+                class="btn btn-primary float-left"
                 >view GitHub repository</a
               >
             </div>
@@ -127,8 +128,8 @@
         </div>
       </div>
 
-       <!-- MADE USING -->
-       <div class="container main-work">
+      <!-- MADE USING -->
+      <div class="container main-work">
         <h2 class="page-title">spell cast with...</h2>
         <div class="row">
           <!-- /.col-lg-3 -->
@@ -180,43 +181,61 @@
         <p class="sub-para text-center">
           <i class="fas fa-code icon-moji"></i> Front-End Development <br />
           <i class="fab fa-css3 icon-moji"></i> Web Design <br />
-          <i class="fas fa-eye-dropper icon-moji"></i> Graphic Design <br />
-          <i class="fas fa-mobile-alt icon-moji"></i> Responsive Development
-          <br />
-          <i class="fas fa-terminal icon-moji"></i> Scrum Master <br />
+          <i class="fas fa-plug icon-moji"></i> Powered by JQuery <br />
+          <i class="fas fa-bolt icon-moji"></i> Open Weather API connection<br />
         </p>
       </div>
-      <div class="card mb-3">
-        <img src="../img/weather-dashboard-1.png" class="card-img-top" alt="..." />
+      <div class="project-outline">
+        <p class="intro-para"><br />App Functionality:</p>
+        <p class="mid-para">
+          current forecast
+        </p>
+        <p class="sub-para">
+          Usre searches for a city by entering a city name into the search
+          field. The search is validated if no city is entered but a search is
+          attempted, the user will be prompted to 'please enter a city name to
+          continue'. The user is presented with the city's current weather
+          conditions, for various cities. These cities will output dynamically
+          under 'My wanderlust'.
+        </p>
+        <p class="mid-para">
+          5-day forecast
+        </p>
+        <p class="sub-para">
+          The user clicks on the '5-Day forecast' link in the header and the
+          5-day forecast will be displayed. The min & max temperatures for each
+          city searched. As above, cities search by the user will be added to
+          their 'My wanderlust' notepad. these can also be removed.
+        </p>
+      </div>
+      <div class="card mb-3 portfolio-hero">
+        <img
+          src="../img/weather-dashboard-1.png"
+          class="card-img-top"
+          alt="..."
+        />
         <div class="card-body">
-          <p class="card-text">
-            This is a wider card with supporting text below as a natural lead-in
-            to additional content. This content is a little bit longer.
-          </p>
-
+          <p class="card-text"></p>
         </div>
       </div>
       <div class="card">
-        <img src="../img/weather-dashboard-2.png" class="card-img-top" alt="..." />
+        <img
+          src="../img/weather-dashboard-2.png"
+          class="card-img-top"
+          alt="..."
+        />
       </div>
       <div class="card-body">
-
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </p>
-
+        <p class="card-text"></p>
       </div>
-      <div class="card">
-        <img src="../img/weather-dashboard-3.png" class="card-img-top" alt="..." />
+      <div class="card portfolio-hero">
+        <img
+          src="../img/weather-dashboard-3.png"
+          class="card-img-top"
+          alt="..."
+        />
       </div>
-      <div class="card-body">
 
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </p>
-      </div>
       <div class="text-center">
         <a
           href="https://github.com/NicoleGeorge/suicide-squad-GoT-app"
@@ -225,32 +244,34 @@
           >view GitHub repository</a
         >
       </div>
-     
+
       <!-- CTA section -->
       <div class="container">
         <div class="card text-center">
           <div class="card-body">
-            <hr class="featurette-divider">
-            <h3 class="card-title">ready to create something awesome together?</h3>
+            <hr class="featurette-divider" />
+            <h3 class="card-title">
+              want to create something awesome together?
+            </h3>
             <p class="card-text footer-cta">
-              I'm currently accepting freelance work and/or creative collaboration.
+              I'm currently accepting freelance work and/or creative
+              collaboration.
             </p>
             <img class="footer-pic" src="../img/7.png" />
             <div>
-             <a
-              href="https://www.linkedin.com/in/nicolemariageorge"
-              target="_blank"
-              class="btn btn-primary text-center"
-              >linkedin profile</a
-            >
-            <a
-              href="https://www.linkedin.com/in/nicolemariageorge"
-              target="_blank"
-              class="btn btn-primary text-center"
-              >view resume</a
-            > 
+              <a
+                href="https://www.linkedin.com/in/nicolemariageorge"
+                target="_blank"
+                class="btn btn-primary text-center"
+                >linkedin profile</a
+              >
+              <a
+                href="https://www.linkedin.com/in/nicolemariageorge"
+                target="_blank"
+                class="btn btn-primary text-center"
+                >view resume</a
+              >
             </div>
-            
           </div>
         </div>
       </div>
@@ -288,7 +309,10 @@
                   alt="Facebook icon"
               /></a>
             </div>
-            <p>Created with <i class="fas fa-heart"></i> by Nicole George | Copyright 2020</p>
+            <p>
+              Created with <i class="fas fa-heart"></i> by Nicole George |
+              Copyright 2020
+            </p>
           </div>
         </div>
       </div>
