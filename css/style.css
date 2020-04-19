@@ -76,8 +76,9 @@ nav .navbar-nav.active {
 
 a {
   color: #f5979c;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 800;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   text-decoration: none;
   background-color: transparent;
@@ -369,8 +370,10 @@ footer p {
 
 @media (max-width: 576px) {
   .nav-link {
+    font-size: 18px;
+    letter-spacing: .5px;
     text-align: center !important;
-    margin: 10px 10px 10px 30px;
+    margin: 10px 20px 10px 20px;
     /* padding: 2px 2px; */
   }
   .navbar-brand {
@@ -383,5 +386,22 @@ footer p {
     color: #fee5e7;
     background-color: #ff4901;
     padding: 10px 10px;
+  }
+
+  .intro-para {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ff4901;
+  }
+  
+  .mid-para {
+    font-size: 18px;
+    color: #ff4901;
+    font-weight: 400;
+  }
+  .sub-para {
+    font-size: 18px;
+    color: #ff4901;
+    font-weight: 200;
   }
 }
