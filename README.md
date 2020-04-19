@@ -51,12 +51,17 @@ Author: Nicole Genimahaliotis
 
 # Screenshots:
 Homepage
-![]()
+![homepage](https://github.com/NicoleGeorge/my-portfolio/blob/master/screenshots/about-mobile-view.png)
 
-Portfolio page (mobile)
+My Craft section (mobile)
+![home-my craft section](https://github.com/NicoleGeorge/my-portfolio/blob/master/screenshots/my-craft-mobile-view.png)
 
-![]()
+Portfolio Page
 
-About page (desktop)
+![portfolio page](https://github.com/NicoleGeorge/my-portfolio/blob/master/screenshots/portfolio-page-mobile-view.png)
 
-![]()
+Contact Page
+![contact page](https://github.com/NicoleGeorge/my-portfolio/blob/master/screenshots/contact-mobile-view.png)
+
+Footer section
+![footer-mobile view](https://github.com/NicoleGeorge/my-portfolio/blob/master/screenshots/footer-mobile-view.png)
