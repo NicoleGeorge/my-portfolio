@@ -39,6 +39,10 @@ Wk 7 - homework - portfolio website
 - adding styles to all pages
 - adding media query to the mobile viewport
 
+# Future Developments
+- The Blog is a work in progress
+- styling and formatting needed
+
 # Credits:
 Illustration Copyright: theblogstop.co (laptop) | the awwwsomeness (contact page gif)|
 Blog Images: Unsplash
