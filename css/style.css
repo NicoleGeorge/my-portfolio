@@ -203,11 +203,12 @@ nav a:hover {
   bottom: 40px;
 }
 
-.sub-title {
+.sub-title, .sub-project-title {
   font-size: 22px;
   font-weight: 600;
   color: #a85a34;
   font-family: "Inconsolata";
+  text-transform: capitalize;
 }
 
 .view-project-link {
