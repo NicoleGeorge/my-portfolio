@@ -203,6 +203,22 @@ nav a:hover {
   bottom: 40px;
 }
 
+.sub-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #a85a34;
+  font-family: "Inconsolata";
+}
+
+.view-project-link {
+  color: #ff49018e;
+}
+
+.view-project-link:hover {
+text-decoration: none;
+color: #ff4901;
+}
+
 .icon-moji {
 color: #f5979cb0;
 }
