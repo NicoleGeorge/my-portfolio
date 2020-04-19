@@ -1,44 +1,58 @@
 # portfolio-homework
 
-Wk 2 - homework - portfolio site
+Wk 7 - homework - portfolio website
 
-[View Site](https://nicolegeorge.github.io/my-portfolio/)
+[Deployed Site](https://nicolegeorge.github.io/my-portfolio/)
+[LinkedIn Profile]()
 
-Project Scope:
-Design a responsive personal portfolio website using Bootstrap 4 and with minimal media queries, based on images provided.
+# Project:
 
-First Stage:
+- Built a responsive personal portfolio, implementing a mobile first design, showcasing our Project 1 and 2 homework pieces, along with other materials to be employer competitive.
 
-- HTML structure for index.html page, portfolio.html and contact.html
-- basic CSS applied
+# Requirements:
 
-Second Stage:
+- Updated portfolio featuring project 1 and two exemplary homework assignments.
+- Update GitHub profile with pinned repositories featuring project 1 and two exemplary assignments.
+- Updated resume
+- Updated LinkedIn profile
 
-- CSS styles applied
-- images resized
+# First Stage: Built out the site structure
 
-Third Stag:
+- created a moodboard, including a font & colour palette
+- built the structure using Bootstrap
+- based the skeleton on portfolio website homework #2
 
-- navbar and footer constructed and styled
+# Second Stage: Updated Portfolio
 
-Final Stage:
+- selected a list of projects
+- created web assets for each project page
+- built in these projects to the portfolio page
+
+# Third Stage: Branding my portfolio
+
+- icons created
+- illustrations added
+- content written
+
+# Final Stage: Updating LinkedIn + GitHub profiles
 
 - adding styles to all pages
 - adding media query to the mobile viewport
 
-Credits:
-Image Copyright: www.girlbossstock.com
+# Credits:
+Illustration Copyright: theblogstop.co (laptop) | the awwwsomeness (contact page gif)|
+Blog Images: Unsplash
+Icons: copyright [FLATICON](https://www.flaticon.com/)
 Author: Nicole Genimahaliotis
 
-Screenshots:
-INDEX.HTML file (980px)
+# Screenshots:
+Homepage
+![]()
+
+Portfolio page (mobile)
 
 ![]()
 
-PORTFOLIO.HTML file (980px)
-
-![]()
-
-CONTACT.HTML file(640px)
+About page (desktop)
 
 ![]()
