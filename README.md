@@ -2,8 +2,8 @@
 
 Wk 7 - homework - portfolio website
 
-[Deployed Site](https://nicolegeorge.github.io/my-portfolio/)
-[LinkedIn Profile]()
+[Deployed Site](https://nicolegeorge.github.io/my-portfolio/) <br/>
+[LinkedIn Profile](https://www.linkedin.com/in/nicolemariageorge/)
 
 # Project:
 
